@@ -1,1 +1,1 @@
-# Adaptive_and_Truncated_Schatten-_Norm_Low-Rank_Tensor_Completion
+# Adaptive_and_Truncated_Schatten_Norm_Low-Rank_Tensor_Completion
