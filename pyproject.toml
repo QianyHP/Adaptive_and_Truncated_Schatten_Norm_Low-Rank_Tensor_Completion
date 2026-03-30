@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "atsn-traffic-imputation"
+version = "1.0.0"
+description = "Adaptive Truncated Schatten Norm for Traffic Data Imputation with Complex Missing Patterns"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.22",
+    "scipy>=1.9",
+    "matplotlib>=3.5",
+    "pandas>=1.4",
+]
+
+[project.optional-dependencies]
+manifold = ["umap-learn>=0.5"]
+dev = [
+    "pytest>=7",
+    "black",
+    "flake8",
+    "mypy",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 100
+target-version = ["py38", "py39", "py310", "py311"]
+
+[tool.mypy]
+ignore_missing_imports = true

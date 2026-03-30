@@ -1,0 +1,5 @@
+numpy>=1.22
+scipy>=1.9
+matplotlib>=3.5
+pandas>=1.4
+umap-learn>=0.5      # optional: for manifold regularisation experiments
