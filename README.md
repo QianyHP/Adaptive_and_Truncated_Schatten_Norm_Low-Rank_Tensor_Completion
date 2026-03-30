@@ -99,14 +99,6 @@ Representative imputation results on the Guangzhou and Seattle datasets across m
 | **Guangzhou** | 214 roads × 61 days × 144 time slots | Urban road speed, 10-min intervals |
 | **Seattle** | 323 sensors × 28 days × 288 time slots | Freeway loop detector speed, 5-min intervals |
 
-Both datasets are included in `data/raw/`:
-
-```
-data/raw/
-├── guangzhou_tensor.mat    # key: 'tensor',  shape: (214, 61, 144)
-└── seattle_tensor.npz      # key: 'arr_0',   shape: (323, 28, 288)
-```
-
 ---
 
 ## ⚙️ Installation
