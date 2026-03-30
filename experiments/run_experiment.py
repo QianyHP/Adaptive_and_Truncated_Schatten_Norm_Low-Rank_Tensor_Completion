@@ -9,7 +9,7 @@ Usage
 From the project root:
 
     python experiments/run_experiment.py \\
-        --data data/raw/guangzhou_tensor.npy \\
+        --data data/raw/guangzhou_tensor.mat \\
         --algorithm atsn \\
         --missing mixed \\
         --fiber_rate 0.3 \\

@@ -127,8 +127,8 @@ def run_comparison(datasets: Dict[str, str], seed: int = 1000) -> pd.DataFrame:
 
 def main():
     parser = argparse.ArgumentParser(description="Compare all baselines on traffic datasets.")
-    parser.add_argument('--guangzhou', default='data/raw/guangzhou_tensor.npy',
-                        help='Guangzhou dataset path')
+    parser.add_argument('--guangzhou', default='data/raw/guangzhou_tensor.mat',
+                        help='Guangzhou dataset path (.mat, key=tensor)')
     parser.add_argument('--seattle',   default='data/raw/seattle_tensor.npz',
                         help='Seattle dataset path')
     parser.add_argument('--output',    default='results/comparison_table.csv',

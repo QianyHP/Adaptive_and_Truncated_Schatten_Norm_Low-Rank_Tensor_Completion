@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "LRTC-ATSN: Adaptive and Truncated Schatten Norm for Traffic Data Imputation"
+authors:
+  - family-names: Deng
+    given-names: Haopeng
+  - family-names: Zheng
+    given-names: Fucheng
+  - family-names: Ma
+    given-names: Kaixiang
+  - family-names: Xia
+    given-names: Xinhai
+repository-code: "https://github.com/QianyHP/Adaptive_and_Truncated_Schatten_Norm_Low-Rank_Tensor_Completion"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Adaptive Truncated Schatten Norm for Traffic Data Imputation with Complex Missing Patterns"
+  authors:
+    - family-names: Deng
+      given-names: Haopeng
+    - family-names: Zheng
+      given-names: Fucheng
+    - family-names: Ma
+      given-names: Kaixiang
+    - family-names: Xia
+      given-names: Xinhai
+  collection-title: "Proceedings of the 25th COTA International Conference of Transportation Professionals (CICTP 2025)"
+  publisher: "American Society of Civil Engineers"
+  start: 88
+  end: 99
+  year: 2025
+  doi: "10.1061/9780784486269.009"
+  url: "https://ascelibrary.org/doi/10.1061/9780784486269.009"
